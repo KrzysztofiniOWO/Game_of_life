@@ -73,7 +73,7 @@ int main()
     std::unique_ptr<CommandSource> mode = select_mode(player_select_mode());
 
     GameControl ctrl(*shape, *mode, words);
-    ctrl.play(*mode);
+    ctrl.play();
 
     return 0;
 }

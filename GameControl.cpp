@@ -10,7 +10,7 @@ GameControl::GameControl(GameOfLife& game, CommandSource& command_source, std::s
 {
 }
 
-void GameControl::play(CommandSource& command_source)
+void GameControl::play()
 {
 
     for (int i = 1; i<(game.getGameWidth()*game.getGameHeight()); i++)

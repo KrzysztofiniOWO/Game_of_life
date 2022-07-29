@@ -16,7 +16,7 @@ class GameControl{
 public:
     GameControl(GameOfLife& game, CommandSource& command_source, std::string words);
 
-    void play(CommandSource& command_source);
+    void play();
     //Play our game
 
 };
